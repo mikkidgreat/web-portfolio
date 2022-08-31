@@ -1,23 +1,156 @@
-header[role="banner"] {
-  #logo-main {
-    display: block;
-    margin: 20px auto;
-  }
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #121212;
 }
 
-#navbar-primary.navbar-default {
-  background: transparent;
-  border: none;
-  .navbar-nav { 
-    width: 100%;
-    text-align: center;
-    > li {
-      display: inline-block;
-      float: none;
-      > a {
-        padding-left: 30px;
-        padding-right: 30px;
-        }
-    }
-  }
+
+
+nav
+{
+    top: 0;
+    left: 0;
+    padding: 10px 90px;
+    background-color: #2F2519;
+    /*box-sizing: border-box;*/
+    /*background: rgba(0, 0, 0, 1);*/
+    /*border-bottom: 1px solid #fff;*/
+}
+
+.spinner-grow 
+{
+    animation-duration: 1.5s;
+    width: 200px;
+    height: 200px;
+}
+
+#sidebar
+{
+    /*background: rgba(0, 0, 0, 1);*/
+    background-color: #4A3F35;
+}
+
+#sidebar > div > ul
+{
+    list-style: none;
+}
+
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a
+{
+    flex-shrink: 1;
+    line-height: 80px;
+    padding: 6px 15px;
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover
+{
+    background: rgba(242, 250, 0, 1);
+    border-radius: 6px;
+    color: black;
+}
+
+ul 
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#profile-picture
+{
+    width: 500px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient startColorstr='#f09433', endColorstr='#bc1888',GradientType=1;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #0A66C2;
+  color: white;
+}
+
+
+#projects1
+{
+    background-color: #FA7D09;
+    color: white;
+}
+
+#projects1 > div > img
+{
+    height: 300px;
+    width: 400px;
+}
+
+
+#projects2
+{
+    background-color: #FA7D09;
+}
+
+#projects2 > div > img
+{
+    height: 300px;
+    width: 400px;
+}
+
+#projects3
+{
+    background-color: #FA7D09;
+}
+
+#projects3 > div > img
+{
+    height: 300px;
+    width: 400px;
+}
+
+#contact-me
+{
+    background-color: #FF4301;
 }
